@@ -7,8 +7,6 @@ class ChefPage extends StatefulWidget {
 }
 
 class _ChefState extends State<ChefPage> {
-  String message = '';
-
   @override
   Widget _buildBox(String img, String name) {
     return new Container(

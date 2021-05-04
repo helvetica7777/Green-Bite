@@ -61,7 +61,11 @@ flutter:
      - chef3.png
      - chef4.png
      - chef5.png
-     
+     - cha1.png
+     - cha2.png
+     - cha3.png
+     - cha4.png
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
