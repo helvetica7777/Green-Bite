@@ -24,10 +24,20 @@ dependencies:
   flutter:
     sdk: flutter
 
+  google_fonts:
+  shared_preferences:
+  provider:
+  font_awesome_flutter:
+  table_calendar:
+  sqflite:
+  intl:
+  date_format: ^1.0.9
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  flutter_calendar: ^0.0.1
 
 dev_dependencies:
   flutter_test:
@@ -45,8 +55,13 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+     - chef1.png
+     - chef2.png
+     - chef3.png
+     - chef4.png
+     - chef5.png
+     
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
