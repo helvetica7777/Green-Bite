@@ -47,13 +47,6 @@ class _CalendarState extends State<CalendarPage> {
     super.dispose();
   }
 
-  // void _onDaySelected(DateTime day, List plans) {
-  //   setState(() {
-  //     _selectedDay = day;
-  //     _selectedPlans = plans;
-  //   });
-  // }
-
   void _addEvent() async {
     if (_plans[_selectedDay] != null) {
       _plans[_selectedDay].add(
